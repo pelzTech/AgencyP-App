@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="check.css">
+</head>
+<body>
+    <header>
+        <img src="Assets/foodlogo2.png" alt="Restaurant Logo" class="logo">
+    </header>
+    <h1>Our Menu</h1>
+    <div class="menu">
+        <form id="orderForm">
+            <div class="menu-item">
+                <label>
+                    <input type="radio" name="meal" value="Pizza" data-price="10"> 
+                    Pizza - $10
+                </label>
+            </div>
+            <div class="menu-item">
+                <label>
+                    <input type="radio" name="meal" value="Burger" data-price="8"> 
+                    Burger - $8
+                </label>
+            </div>
+            <div class="menu-item">
+                <label>
+                    <input type="radio" name="meal" value="Pasta" data-price="12"> 
+                    Pasta - $12
+                </label>
+            </div>
+            <div class="menu-item">
+                <label>
+                    <input type="radio" name="meal" value="Salad" data-price="7"> 
+                    Salad - $7
+                </label>
+            </div>
+            <div class="menu-item">
+                <label>
+                    <input type="radio" name="meal" value="Steak" data-price="20"> 
+                    Steak - $20
+                </label>
+            </div>
+            <div class="menu-item">
+                <label>
+                    <input type="radio" name="meal" value="Sushi" data-price="15"> 
+                    Sushi - $15
+                </label>
+            </div>
+            <div class="menu-item">
+                <label>
+                    <input type="radio" name="meal" value="Tacos" data-price="10"> 
+                    Tacos - $10
+                </label>
+            </div>
+            <div class="menu-item">
+                <label>
+                    <input type="radio" name="meal" value="Sandwich" data-price="6"> 
+                    Sandwich - $6
+                </label>
+            </div>
+            <div class="menu-item">
+                <label>
+                    <input type="radio" name="meal" value="Soup" data-price="5"> 
+                    Soup - $5
+                </label>
+            </div>
+            <div class="menu-item">
+                <label>
+                    <input type="radio" name="meal" value="Ice Cream" data-price="4"> 
+                    Ice Cream - $4
+                </label>
+            </div>
+            <button type="button" onclick="order()">Order</button>
+        </form>
+    </div>
+
+    <script src="check.js"></script>
+</body>
+</html>
